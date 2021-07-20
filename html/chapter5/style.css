@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+
+}
+#quiz {
+  width: 360px;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+#quiz ul {
+  display: block;
+  background-color: #44b7fc;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  cursor: move;
+  border-radius: 4px
+}
+#quiz ul.sortable-chosen {
+  background-color: lightslategray;
+}
+
+.floatRight{float:right;margin-left:10px;max-width: 22%;max-height: 22%;}

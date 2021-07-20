@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Quiz | Team Latvia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+
+<body>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Team/project<br>Name</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Intro</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About us</a>
+	<a href="#chapter1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 1</a>
+	<a href="#chapter2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 2</a>
+	<a href="#chapter3" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 3</a>
+	<a href="#chapter4" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 4</a>
+    <a href="#chapter5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 5</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Team/project name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header and intro -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>"Our projects name"</b></h1>
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Intro.</b></h1>
+    <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    <p>Introduction of the problem</p>
+    <p>By navigating and performing STEM (science, technology, engineering and math)
+        related activities, every student and professional is ment to subscribe somehow under the first letter
+        of this abreviation, the capital “S”. S stands for science. The basis of science is scientifical way of
+        thinking and cooperating in the way that promotes scientific thought. Our brain, and cognitive
+        abilities associated with it, is our main instrument for success or … failure.
+    </p>
+  </div>
+
+  <!-- About us -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>About us</b></h1>
+    <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    <p>We are a team.........</p>
+    <p>Text...
+    </p>
+  </div>
+
+<!-- Chapter 1 -->
+  <div class="w3-container" id="chapter1" style="margin-top:75px">
+    <h1 class="w3-large w3-text-blue"><b>Chapter 1</b></h1>
+    <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    <p>Chapter1</p>
+    	  <a href="html/chapter1/chapter1.html"; class="button";>Start chapter 1</a>
+    </p>
+  </div>
+
+ <!-- Chapter 2 -->
+  <div class="w3-container" id="chapter2" style="margin-top:75px">
+    <h1 class="w3-large w3-text-blue"><b>Chapter 2</b></h1>
+    <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    <p>Chapter2</p>
+    	  <a href="html/chapter2/chapter2.html"; class="button";>Start chapter 2</a>
+    </p>
+  </div>
+  
+  <!-- Chapter 3 -->
+  <div class="w3-container" id="chapter3" style="margin-top:75px">
+    <h1 class="w3-large w3-text-blue"><b>Chapter 3</b></h1>
+    <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    <p>Chapter3</p>
+    	  <a href="html/chapter3/chapter3.html"; class="button";>Start chapter 3</a>
+    </p>
+  </div>
+  
+  <!-- Chapter 4 -->
+  <div class="w3-container" id="chapter4" style="margin-top:75px">
+    <h1 class="w3-large w3-text-blue"><b>Chapter 4</b></h1>
+    <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    <p>Chapter4</p>
+    	  <a href="html/chapter4/chapter4.html"; class="button";>Start chapter 4</a>
+    </p>
+  </div>
+  
+  <!-- Chapter 5 -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-medium w3-text-blue"><b>Chapter 5</b></h1>
+    <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    
+	  <a href="html/chapter5/chapter5.html"; class="button";>Start chapter 5</a>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Project was made by....</p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Chapter 5</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-sortablejs@latest/jquery-sortable.js"></script>
+<script src="sort_task.js"></script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Chapter 5 -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Chapter 5</b></h1>
+    <hr style="width:50px;border:5px solid #44b7fc" class="w3-round">
+    <p>What kind of logic do we really apply, when we think that we think in a logical manner? Even when we are trying hard to draw some logical conclusions, is this realy a logic?</p>
+    <p>Try this one:</p>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Drag & drop quiz component with SortableJS</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+
+
+  </html>
+  
+  <p style="border:2px; border-style:solid; border-radius:5px; border-color:#2196F3; padding: 1em;">Matt has an office in the city. He has loved animals since he was a kid. He does his work on alive species. He sometimes needs to work in emergency situations.
+    Arrange the following statements in order according to how likely they are (1.: most likely, … , 4.: least likely).
+  </p>
+  <body>
+  <img src="./guy.png" class="floatRight">
+    <div class="wrapper" id="quiz">
+      <ul>Matt is an athlete.</ul>
+      <ul>Matt is a doctor.</ul>
+      <ul>Matt is a veterinarian and an athlete.</ul>
+      <ul>Matt is a veterinarian.</ul>
+    </div>
+    <script>
+      const drag_area = document.querySelector(".wrapper");
+      new Sortable(drag_area, {
+        animation: 150
+      })
+    </script>
+    <button onclick="checkAnswer()">Check Answer</button>
+  </body>
+  </div>
+  
+<div style="padding: 1em; display: none" id="correctDIV"> 
+<p>
+Correct! <button onclick="correctGoodNews()">Good news</button> or <button onclick="correctBadNews()">bad news!</button>
+</p>
+</div>
+
+<div style="padding: 1em; display: none" id="wrongDIV"> 
+<p>
+Wrong! <button onclick="wrongGoodNews()">Good news</button> or <button onclick="wrongBadNews()">bad news!</button>
+</p>
+</div>
+
+<div style="padding: 1em; display: none" id="correctGoodNews"> 
+<p>
+Correct anwser | good news
+</p>
+</div>
+
+<div style="padding: 1em; display: none" id="correctBadNews"> 
+<p>
+Correct anwser | bad news
+</p>
+</div>
+
+<div style="padding: 1em; display: none" id="wrongGoodNews"> 
+<p>
+Good news: This is normal. At least 85% of people...
+<br> <br>
+OK, than You may ask, why say 15% of people do this task right? This could be done by chance, by
+using proper logic, and by using wrong logic plus chance. First of all, there are 24 ways to arrange 4
+answers, 8 of them are correct answers (every answer where option “C” is ranked lower than “A”
+and “D”). So we have a 33% probability to have a right answer by chance. It does mean exactly that
+– we humans generaly are worse performers on some mental tasks than a dice, or coin flip model.
+And what is proper logic for this task anyway?
+<br>
+<img src="./venna.png" alt="diagram">
+</p>
+</div>
+
+<div style="padding: 1em; display: none" id="wrongBadNews"> 
+<p>
+Bad news: You are wrong! This could not be logical, as there is no way that a probability to satisfy
+two conditions at a time (Matt is a vet and an athlete) could be greater than for one separate
+condition (a vet or an athlete).
+<br>
+<img src="./venna.png" alt="diagram">
+</p>
+</div>
