@@ -7,15 +7,19 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="./css/style.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <style>
-  body,
   h1,
   h2,
   h3,
   h4,
   h5 {
     font-family: "Poppins", sans-serif
+  }
+
+  body {
+    font-family: "Poppins"
   }
 
   body {
@@ -32,16 +36,32 @@
   .w3-half img:hover {
     opacity: 1
   }
+
+  /*
+  body{
+  background: url(./back-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden;
+  }
+  */
+  body {
+    background-color: rgb(192, 201, 207);
+  }
 </style>
 
 <body>
-  <!-- Sidebar/menu -->
+  <!-- Sidebar/menu 
   <nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;"
     id="mySidebar"><br>
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
       style="width:100%;font-size:22px">Close Menu</a>
     <div class="w3-container">
-      <h3 class="w3-padding-64"><b>Team/project<br>Name</b></h3>
+      <h3 class="w3-padding-64"><b>Team Latvia <br> <a href="https://first.global/"><i>FIRST</i> global</a></h3>
     </div>
     <div class="w3-bar-block">
       <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
@@ -54,121 +74,77 @@
       <a href="#chapter5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 5</a>
     </div>
   </nav>
+             -->
 
-  <!-- Top menu on small screens -->
+  <!-- Top menu on small screens 
   <header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
     <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
-    <span>Team/project name</span>
+    <span>Team Latvia|FIRST global</span>
   </header>
+-->
 
-  <!-- Overlay effect when opening sidebar on small screens -->
+  <!-- Overlay effect when opening sidebar on small screens 
   <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
     id="myOverlay"></div>
+-->
+  <div class="w3-container" style="background-color: rgb(77, 90, 102);">
+     <p class="w3-xlarge"><i class="fas fa-angle-double-right"></i> Team Latvia | <a href="https://first.global/"><i>FIRST</i> global</a></p>
+  </div>
 
   <!-- !PAGE CONTENT! -->
-  <div class="w3-main" style="margin-left:340px;margin-right:40px">
+  <div class="w3-main" style="margin-left:30px;margin-right:40px;">
 
     <!-- Header and intro -->
     <div class="w3-container" style="margin-top:80px" id="showcase">
-      <h1 class="w3-jumbo"><b>"Our projects name"</b></h1>
-      <h1 class="w3-xxxlarge w3-text-blue"><b>Intro.</b></h1>
-      <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
-      <p>Introduction of the problem</p>
-      <p>By navigating and performing STEM (science, technology, engineering and math)
-        related activities, every student and professional is ment to subscribe somehow under the first letter
-        of this abreviation, the capital “S”. S stands for science. The basis of science is scientifical way of
-        thinking and cooperating in the way that promotes scientific thought. Our brain, and cognitive
-        abilities associated with it, is our main instrument for success or … failure.
+      <h1 class="w3-xxlarge"><b>Welcome to the Scientific Thought Training Sessions!</b></h1>
+      <!--<hr style="width:100%;border:5px solid #44b7fc;" class="w3-roundtiny">-->
+      <p>
+        During this session You will have some interesting illusions, that will reveal some amazing knowledge about how
+        our brain works (specifically about our perception and thinking). <br> And how to not fall for some typical
+        cognitive (perceptual and thinking) biases.
       </p>
-      <!-- Add icon library -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+      <!-- STRART -->
+      <button class="start"><i class="fas fa-play"></i> Start! </button>
 
-      <!-- Auto width -->
+      <!-- Download -->
+      <p class="w3-small"><i>We have also made this resource in a powerpoint file format:</i></p>
       <a href="Placeholder presentation.pptx">
-      <button class="btn"><i class="fa fa-download"></i> Download the presentation file</button>
+        <button class="btn"><i class="fa fa-download"></i> Download the presentation file</button>
       </a>
     </div>
 
     <!-- About us -->
-    <div class="w3-container" id="services" style="margin-top:75px">
-      <h1 class="w3-xxxlarge w3-text-blue"><b>About us</b></h1>
-      <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
+    <div class="w3-container" style="margin-top:30px">
+      <p class="w3-xlarge">About us:</p>
       <p>We are a team.........</p>
-      <p>Text...
-      </p>
     </div>
 
-    <!-- Chapter 1 -->
-    <div class="w3-container" id="chapter1" style="margin-top:75px">
-      <h1 class="w3-large w3-text-blue"><b>Chapter 1</b></h1>
-      <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
-      <p>Chapter1</p>
+    <div class="w3-container">
+      <p class="w3-xlarge" style="margin-bottom:5px">Content:</p>
+
+      <!-- Chapter 1 -->
       <a href="html/chapter1/chapter1.html" ; class="button" ;>Start chapter 1</a>
-      </p>
-    </div>
 
-    <!-- Chapter 2 -->
-    <div class="w3-container" id="chapter2" style="margin-top:75px">
-      <h1 class="w3-large w3-text-blue"><b>Chapter 2</b></h1>
-      <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
-      <p>Chapter2</p>
+      <!-- Chapter 2 -->
       <a href="html/chapter2/chapter2.html" ; class="button" ;>Start chapter 2</a>
-      </p>
-    </div>
 
-    <!-- Chapter 3 -->
-    <div class="w3-container" id="chapter3" style="margin-top:75px">
-      <h1 class="w3-large w3-text-blue"><b>Chapter 3</b></h1>
-      <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
-      <p>Chapter3</p>
+      <!-- Chapter 3 -->
       <a href="html/chapter3/chapter3.html" ; class="button" ;>Start chapter 3</a>
-      </p>
-    </div>
 
-    <!-- Chapter 4 -->
-    <div class="w3-container" id="chapter4" style="margin-top:75px">
-      <h1 class="w3-large w3-text-blue"><b>Chapter 4</b></h1>
-      <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
-      <p>Chapter4</p>
+      <!-- Chapter 4 -->
       <a href="html/chapter4/chapter4.html" ; class="button" ;>Start chapter 4</a>
-      </p>
-    </div>
 
-    <!-- Chapter 5 -->
-    <div class="w3-container" id="contact" style="margin-top:75px">
-      <h1 class="w3-medium w3-text-blue"><b>Chapter 5</b></h1>
-      <hr style="width:100px;border:5px solid #44b7fc" class="w3-round">
-
+      <!-- Chapter 5 -->
       <a href="html/chapter5/chapter5.html" ; class="button" ;>Start chapter 5</a>
-
-      <!-- End page content -->
     </div>
+    <!-- End page content -->
+  </div>
 
-    <!-- W3.CSS Container -->
-    <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
-      <p class="w3-right">Project was made by....</p>
-    </div>
-
-    <script>
-      // Script to open and close sidebar
-      function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-      }
-
-      function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-      }
-
-      // Modal Image Gallery
-      function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-      }
-    </script>
+  <!-- W3.CSS Container -->
+  <div style="margin-top:75px;padding-right:5%">
+    <p class="w3-right">Project was made by Team Latvia</p>
+  </div>
 
 </body>
 
