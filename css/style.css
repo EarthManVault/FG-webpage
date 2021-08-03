@@ -38,7 +38,7 @@ body {
 .button:hover {
   background-color: RoyalBlue;
 }
-.start {
+.startbutton {
   display:block; margin-left:auto; margin-right:auto; /*center*/
   background-color: #e69232;
   border: none;
@@ -49,7 +49,7 @@ body {
   margin-bottom: 30px;
 }
 
-.start:hover {
+.startbutton:hover {
   background-color: rgb(177, 115, 0);
 }
 
