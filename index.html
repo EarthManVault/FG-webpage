@@ -55,38 +55,7 @@
 </style>
 
 <body>
-  <!-- Sidebar/menu 
-  <nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;"
-    id="mySidebar"><br>
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
-      style="width:100%;font-size:22px">Close Menu</a>
-    <div class="w3-container">
-      <h3 class="w3-padding-64"><b>Team Latvia <br> <a href="https://first.global/"><i>FIRST</i> global</a></h3>
-    </div>
-    <div class="w3-bar-block">
-      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
-      <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Intro</a>
-      <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About us</a>
-      <a href="#chapter1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 1</a>
-      <a href="#chapter2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 2</a>
-      <a href="#chapter3" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 3</a>
-      <a href="#chapter4" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 4</a>
-      <a href="#chapter5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chapter 5</a>
-    </div>
-  </nav>
-             -->
-
-  <!-- Top menu on small screens 
-  <header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
-    <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
-    <span>Team Latvia|FIRST global</span>
-  </header>
--->
-
-  <!-- Overlay effect when opening sidebar on small screens 
-  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
-    id="myOverlay"></div>
--->
+  
   <div class="w3-container" style="background-color: rgb(77, 90, 102);">
      <p class="w3-xlarge"><i class="fas fa-angle-double-right"></i> Team Latvia | <a href="https://first.global/"><i>FIRST</i> global</a></p>
   </div>
@@ -95,9 +64,8 @@
   <div class="w3-main" style="margin-left:30px;margin-right:40px;">
 
     <!-- Header and intro -->
-    <div class="w3-container" style="margin-top:80px" id="showcase">
+    <div class="w3-container" style="margin-top:80px">
       <h1 class="w3-xxlarge"><b>Welcome to the Scientific Thought Training Sessions!</b></h1>
-      <!--<hr style="width:100%;border:5px solid #44b7fc;" class="w3-roundtiny">-->
       <p>
         During this session You will have some interesting illusions, that will reveal some amazing knowledge about how
         our brain works (specifically about our perception and thinking). <br> And how to not fall for some typical
@@ -105,7 +73,9 @@
       </p>
      
       <!-- STRART -->
-      <button class="startbutton"><i class="fas fa-play"></i> Start! </button>
+      <a style="text-decoration: none;" href="./html/intro.html">
+      <button class="startbutton" style="text-decoration: none;"><i class="fas fa-play"></i> Start!</button>
+      </a> 
 
       <!-- Download -->
       <p class="w3-small"><i>We have also made this resource in a powerpoint file format:</i></p>
@@ -123,20 +93,23 @@
     <div class="w3-container">
       <p class="w3-xlarge" style="margin-bottom:5px">Content:</p>
 
+      <!-- Intro -->
+      <a href="html/intro.html" class="button">Intro</a>
+
       <!-- Chapter 1 -->
-      <a href="html/chapter1/chapter1.html" ; class="button" ;>Start chapter 1</a>
+      <a href="html/chapter1/chapter1.html" class="button">Start chapter 1</a>
 
       <!-- Chapter 2 -->
-      <a href="html/chapter2/chapter2.html" ; class="button" ;>Start chapter 2</a>
+      <a href="html/chapter2/chapter2.html" class="button">Start chapter 2</a>
 
       <!-- Chapter 3 -->
-      <a href="html/chapter3/chapter3.html" ; class="button" ;>Start chapter 3</a>
+      <a href="html/chapter3/chapter3.html" class="button">Start chapter 3</a>
 
       <!-- Chapter 4 -->
-      <a href="html/chapter4/chapter4.html" ; class="button" ;>Start chapter 4</a>
+      <a href="html/chapter4/chapter4.html" class="button">Start chapter 4</a>
 
       <!-- Chapter 5 -->
-      <a href="html/chapter5/chapter5.html" ; class="button" ;>Start chapter 5</a>
+      <a href="html/chapter5/chapter5.html" class="button">Start chapter 5</a>
     </div>
     <!-- End page content -->
   </div>
