@@ -1,0 +1,6 @@
+/* this file is here because it was refrenced 
+in the first chapter pages, this shouldn't be here*/
+
+img {         /*fixes the size of images in chapter pages, so they aren't way too big*/
+   width: 80%; 
+}
