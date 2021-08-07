@@ -57,17 +57,18 @@ body {
 
 /* Style download buttons */
 .btn {
-  background-color: DodgerBlue;
+  background-color: #1C91D7;
   border: none;
   color: white;
-  padding: 12px 25px;
+  padding: 14px 20px;
   cursor: pointer;
   font-size: 16px;
+  border-radius: 3px;
 }
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: RoyalBlue;
+  background-color: rgb(2, 59, 231);
 }
 
 hr {
